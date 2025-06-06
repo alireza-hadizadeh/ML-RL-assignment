@@ -1,5 +1,7 @@
+fastapi
+uvicorn
 torch
+osmnx==2.0.3
+networkx
 numpy
 scipy
-tqdm
-matplotlib
