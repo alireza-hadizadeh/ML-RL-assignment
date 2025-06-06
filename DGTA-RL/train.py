@@ -4,7 +4,7 @@ from torch.optim import Adam
 from scipy import stats
 from tqdm import trange
 from env import DTSPTDS
-from model import DGTA
+from dgta import DGTA
 import os
 
 # ------------------ hyper-parameters ------------------
