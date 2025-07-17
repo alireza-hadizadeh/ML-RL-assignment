@@ -7,7 +7,7 @@ import numpy as np
 
 # ---------------- Settings ----------------
 DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
-MODEL_PATH = "dgta_rl.pt"
+MODEL_PATH = "dgta_rl_iter_500.pt"
 NUM_INSTANCES = 100   # Number of test problems
 GRAPH_SIZE = 20       # Same as training
 TIME_HORIZON = 12     # Same as training

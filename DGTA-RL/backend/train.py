@@ -9,7 +9,7 @@ import os
 
 # ------------------ hyper-parameters ------------------
 BATCH   = 128
-ITER    = 50                # paper uses 100 but 50 converges 
+ITER    = 1000                # paper uses 100 but 50 converges 
 LR      = 1e-4
 CLIP    = 1.0
 DEVICE  = "cuda" if torch.cuda.is_available() else "cpu"
